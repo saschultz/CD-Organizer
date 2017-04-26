@@ -11,4 +11,8 @@ class CD
   def CD.all
     @@cds
   end
+
+  def save
+    @@cds.push(self)
+  end
 end
